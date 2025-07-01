@@ -1,3 +1,24 @@
 [submodule "Plugins"]
 	path = Plugins
 	url = https://github.com/LittleReuben/NewTsinghuaCourseRegistrationSystem_Plugins.git
+[submodule "UserAuthService"]
+	path = UserAuthService
+	url = https://github.com/LittleReuben/NewTsinghuaCourseRegistrationSystem_UserAuthService.git
+[submodule "UserAccountService"]
+	path = UserAccountService
+	url = https://github.com/LittleReuben/NewTsinghuaCourseRegistrationSystemCode_UserAccountService.git
+[submodule "CourseManagementService"]
+	path = CourseManagementService
+	url = https://github.com/LittleReuben/NewTsinghuaCourseRegistrationSystemCode_CourseManagementService.git
+[submodule "CourseSelectionService"]
+	path = CourseSelectionService
+	url = https://github.com/LittleReuben/NewTsinghuaCourseRegistrationSystemCode_CourseSelectionService.git
+[submodule "CourseEvaluationService"]
+	path = CourseEvaluationService
+	url = https://github.com/LittleReuben/NewTsinghuaCourseRegistrationSystemCode_CourseEvaluationService.git
+[submodule "SemesterPhaseService"]
+	path = SemesterPhaseService
+	url = https://github.com/LittleReuben/NewTsinghuaCourseRegistrationSystemCode_SemesterPhaseService.git
+[submodule "SystemLogService"]
+	path = SystemLogService
+	url = https://github.com/LittleReuben/NewTsinghuaCourseRegistrationSystemCode_SystemLogService.git
