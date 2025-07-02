@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 REM 设置你的 Git 操作参数
-set COMMIT_MESSAGE="schemaNameShine"
+set /p COMMIT_MESSAGE="请输入提交信息: "
 
 REM 遍历当前文件夹下的所有子文件夹
 for /D %%d in (*) do (
@@ -21,4 +21,8 @@ for /D %%d in (*) do (
     
     cd ..
 )
+git add .
+git commit -m %COMMIT_MESSAGE%
+git push
+echo Done: root
 pause
