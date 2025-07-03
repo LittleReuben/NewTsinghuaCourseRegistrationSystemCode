@@ -12,7 +12,7 @@ for /D %%d in (*) do (
     REM 检查是否是 Git 仓库
     if exist ".git" (
         git add .
-        git commit -m %COMMIT_MESSAGE%
+        git commit -m "%COMMIT_MESSAGE%"
         git push
         echo Done: %%d
     ) else (
@@ -22,7 +22,7 @@ for /D %%d in (*) do (
     cd ..
 )
 git add .
-git commit -m %COMMIT_MESSAGE%
+git commit -m "%COMMIT_MESSAGE%"
 git push
 echo Done: root
 pause
